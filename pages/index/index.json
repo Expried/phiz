@@ -1,0 +1,4 @@
+{
+    "usingComponents": {
+        "wux-tag": "../../component/tag/index"
+    }}

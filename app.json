@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/type/type",
+        "pages/user/index",
+        "pages/detail/detail"
+    ],
+    "usingComponents": {
+        "wux-tag": "../component/image/index"
+    },
+    "window": {
+        "backgroundTextStyle": "dark",
+        "backgroundColor": "#E6E6E6",
+        "navigationBarBackgroundColor":"#faea06",
+        "navigationBarTitleText": "裱情包",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": true
+    },
+    "tabBar": {
+        "selectedColor": "#faea06",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "icon/home.png",
+                "selectedIconPath": "icon/home_select.png"
+            },
+            {
+                "pagePath": "pages/type/type",
+                "text": "斗图",
+                "iconPath": "icon/doutu.png",
+                "selectedIconPath": "icon/doutu_select.png"
+            },
+            {
+                "pagePath": "pages/index/index",
+                "text": "制作",
+                "iconPath": "icon/do.png",
+                "selectedIconPath": "icon/do_select.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "iconPath": "icon/user.png",
+                "selectedIconPath": "icon/user_select.png"
+            }
+        ]
+    }
+}

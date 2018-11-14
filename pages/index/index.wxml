@@ -1,0 +1,346 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header">
+        <view class='search_view'>
+            <input class="search_input" placeholder="输入关键字搜索"></input>
+            <button class=" weui-btn mini-btn search_btn" type="" size="mini">搜索</button>
+        </view>
+    </view>
+
+    <view class="tuijian">
+        <view class='tuijian_head'>
+            <text class="left">大家都搜:</text>
+            <text class='right' bindtap='detail'>换一换</text>
+        </view>
+        <view class='tuijian_content'>
+            <wux-tag color="magenta">蘑菇头</wux-tag>
+        <wux-tag color="red">我的中指</wux-tag>
+        <wux-tag color="volcano">我美吗</wux-tag>
+        <wux-tag color="orange">我错了</wux-tag>
+        <wux-tag color="gold">SB</wux-tag>
+        <wux-tag color="lime">套路</wux-tag>
+        <wux-tag color="green">顽皮</wux-tag>
+        <wux-tag color="#2db7f5">你大爷</wux-tag>
+        <wux-tag color="#87d068">权律二</wux-tag>
+        <wux-tag color="#108ee9">暴漫</wux-tag>
+        </view>
+    </view>
+
+    <view class="splitor" />
+
+
+    <view class='content'>
+        <view class="hot_head">
+            <image src='../img/hot.png' class="hot_icon_min"> </image>
+            <span>热门表情包</span>
+        </view>
+        <view class='line'></view>
+        <view class="hot_content">
+            <ul class="video_list">
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed;'></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed;'></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+            </ul>
+        </view>
+    </view>
+
+
+    <view class="splitor" />
+    <view class='content'>
+        <view class="hot_head">
+            <image src='../img/like.png' class="hot_icon_min"> </image>
+            <span>猜你喜欢</span>
+        </view>
+        <view class='line'></view>
+        <view class="hot_content">
+
+            <ul class="video_list">
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img.zcool.cn/community/0142a6590aa1b6a801214550342477.jpg@2o.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img1.imgtn.bdimg.com/it/u=528952773,1887868408&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=2948095659,847633923&fm=200&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img0.imgtn.bdimg.com/it/u=1942125600,2815341622&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img5.imgtn.bdimg.com/it/u=857280559,4012804478&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='http://img2.imgtn.bdimg.com/it/u=2539210502,3949335388&fm=26&gp=0.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1541439277596&di=4d3ecfe6c4448c1ca6952c883f4ff922&imgtype=0&src=http%3A%2F%2Ff.hiphotos.baidu.com%2Fimage%2Fpic%2Fitem%2Fa8773912b31bb051e54c65e23c7adab44bede094.jpg' style='max-width:90%;height:80%;border:1px solid #ededed; '></image>
+                        <span>啦啦啦</span>
+                    </div>
+                </li>
+            </ul>
+        </view>
+    </view>
+</view>

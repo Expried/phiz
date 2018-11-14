@@ -1,0 +1,489 @@
+.container {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+.search_input {
+    width: 75%;
+    height: 100%;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 100%;
+}
+
+.search {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+    background: #faea06;
+}
+
+.search_view {
+   
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: #ffff;
+}
+
+.search_view_icon {
+    width: 10%;
+    height: 32px;
+    line-height: 32px;
+      border-right: 1px silver solid;
+    margin-left: 10px;
+}
+
+.search_icon {
+    width: 32px;
+    height: 32px;
+    max-height: 32px;
+    max-width: 32px;
+}
+
+.tuijian {
+    height: 100px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.search_btn {
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    background: #faea06;
+}
+
+.tuijian_head {
+    font-size: 16px;
+    height: 25%;
+    padding: 0px;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 10px;
+    color: #d1d1d1;
+}
+
+.tuijian_content {
+    height: 60%;
+    width: 80%;
+    padding-top: 8px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+    margin-left: 5px;
+}
+
+.tuijian_content_text {
+    width: 32.5%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    height: 50%;
+    text-align: center;
+    line-height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hot {
+    display: inline-block;
+    width: 13px;
+    height: 45%;
+    margin-left: 2px;
+    color: white;
+    background-color: #cd2626;
+    font-size: 10px;
+}
+
+.tuijian .right {
+    float: right;
+    margin-right: 5px;
+}
+
+.content {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.img {
+    height: 100px;
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 6px;
+    border: 1px solid #fafafa;
+}
+
+.splitor {
+    height: 9px;
+    background-color: #eeeee0;
+    width: 100%;
+}
+
+.hot_head {
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    line-height: 40px;
+}
+
+.line {
+    height: 0.5px;
+    background-color: #eaeaea;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.hot_content {
+    padding-top: -30px;
+}
+
+.hot_head span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hot_head label {
+    font-size: 13px;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hot_img {
+    width: 80px;
+    height: 80px;
+    max-height: 80px;
+    background-color: #ededed;
+    max-width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.label {
+    font-size: 15px;
+    margin-top: -10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hot_img_view {
+    width: 80px;
+    height: 100px;
+    margin-top: 10px;
+    vertical-align: middle;
+    float: left;
+    text-align: center;
+    margin-left: 13px;
+}
+
+.hot_icon_min {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.more_icon_min {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hot_img_content {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -5px;
+    padding: 0px;
+    border: 1px solid;
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.video_list>li {
+    float: left;
+    width: 24.4%;
+    left: 5px;
+    text-align: center;
+    padding-top: 28%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.video_list>li>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video_list>li>div>span {
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.video_list>div>image {
+    background-color: #ededed;
+}
+
+.modal {
+    position: relative;
+    left: 75%;
+    top: 100;
+    right: 0;
+    bottom: 10;
+    width: 100px;
+    height: 100px;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.slide-image {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    max-height: 200px;
+}
+
+.swiper {
+    height: 100%;
+    width: 100%;
+}
+
+.weui-grid {
+    width: 24.9999999%;
+    height: 60px;
+    padding: 0px;
+    padding-top: 7px;
+    border-right: 1rpx solid #e6e6e6;
+    border-bottom: 1rpx solid #e6e6e6;
+}
+
+.weui-grid__label {
+    margin: 0px;
+    font-size: 13px;
+}
+
+.wux-tag {
+    font-family: Monospaced Number,
+                 Chinese Quote,
+                 -apple-system,
+                 BlinkMacSystemFont,
+                 Segoe UI,
+                 Roboto,
+                 PingFang SC,
+                 Hiragino Sans GB,
+                 Microsoft YaHei,
+                 Helvetica Neue,
+                 Helvetica,
+                 Arial,
+                 sans-serif;
+    font-size: 28rpx;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    line-height: 40rpx;
+    height: 44rpx;
+    padding: 0 14rpx;
+    border-radius: 8rpx;
+    border: 2rpx solid #d9d9d9;
+    background: #fafafa;
+    font-size: 24rpx;
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    opacity: 1;
+    margin-right: 16rpx;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.wux-tag--hover {
+    opacity: 0.85;
+}
+
+.wux-tag--pink {
+    color: #eb2f96;
+    background: #fff0f6;
+    border-color: #ffadd2;
+}
+
+.wux-tag--pink-inverse {
+    background: #eb2f96;
+    border-color: #eb2f96;
+    color: #fff;
+}
+
+.wux-tag--magenta {
+    color: #eb2f96;
+    background: #fff0f6;
+    border-color: #ffadd2;
+}
+
+.wux-tag--magenta-inverse {
+    background: #eb2f96;
+    border-color: #eb2f96;
+    color: #fff;
+}
+
+.wux-tag--red {
+    color: #f5222d;
+    background: #fff1f0;
+    border-color: #ffa39e;
+}
+
+.wux-tag--red-inverse {
+    background: #f5222d;
+    border-color: #f5222d;
+    color: #fff;
+}
+
+.wux-tag--volcano {
+    color: #fa541c;
+    background: #fff2e8;
+    border-color: #ffbb96;
+}
+
+.wux-tag--volcano-inverse {
+    background: #fa541c;
+    border-color: #fa541c;
+    color: #fff;
+}
+
+.wux-tag--orange {
+    color: #fa8c16;
+    background: #fff7e6;
+    border-color: #ffd591;
+}
+
+.wux-tag--orange-inverse {
+    background: #fa8c16;
+    border-color: #fa8c16;
+    color: #fff;
+}
+
+.wux-tag--yellow {
+    color: #fadb14;
+    background: #feffe6;
+    border-color: #fffb8f;
+}
+
+.wux-tag--yellow-inverse {
+    background: #fadb14;
+    border-color: #fadb14;
+    color: #fff;
+}
+
+.wux-tag--gold {
+    color: #faad14;
+    background: #fffbe6;
+    border-color: #ffe58f;
+}
+
+.wux-tag--gold-inverse {
+    background: #faad14;
+    border-color: #faad14;
+    color: #fff;
+}
+
+.wux-tag--cyan {
+    color: #13c2c2;
+    background: #e6fffb;
+    border-color: #87e8de;
+}
+
+.wux-tag--cyan-inverse {
+    background: #13c2c2;
+    border-color: #13c2c2;
+    color: #fff;
+}
+
+.wux-tag--lime {
+    color: #a0d911;
+    background: #fcffe6;
+    border-color: #eaff8f;
+}
+
+.wux-tag--lime-inverse {
+    background: #a0d911;
+    border-color: #a0d911;
+    color: #fff;
+}
+
+.wux-tag--green {
+    color: #52c41a;
+    background: #f6ffed;
+    border-color: #b7eb8f;
+}
+
+.wux-tag--green-inverse {
+    background: #52c41a;
+    border-color: #52c41a;
+    color: #fff;
+}
+
+.wux-tag--blue {
+    color: #1890ff;
+    background: #e6f7ff;
+    border-color: #91d5ff;
+}
+
+.wux-tag--blue-inverse {
+    background: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+}
+
+.wux-tag--geekblue {
+    color: #2f54eb;
+    background: #f0f5ff;
+    border-color: #adc6ff;
+}
+
+.wux-tag--geekblue-inverse {
+    background: #2f54eb;
+    border-color: #2f54eb;
+    color: #fff;
+}
+
+.wux-tag--purple {
+    color: #722ed1;
+    background: #f9f0ff;
+    border-color: #d3adf7;
+}
+
+.wux-tag--purple-inverse {
+    background: #722ed1;
+    border-color: #722ed1;
+    color: #fff;
+}
